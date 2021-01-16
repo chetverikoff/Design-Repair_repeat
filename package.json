@@ -18,6 +18,10 @@
   "homepage": "https://github.com/chetverikoff/Design-Repair_repeat#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
   }
 }

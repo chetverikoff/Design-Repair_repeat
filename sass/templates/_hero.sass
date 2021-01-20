@@ -1,0 +1,59 @@
+.hero
+  position: relative
+  // display: flex
+  // align-items: center
+  padding-top: 92px
+  height: 100vh
+  background: $dark url('../img/hero-bg.jpg') no-repeat center / cover
+  color: $light
+  &__instagram
+    position: absolute
+    left: 0
+    top: 0
+    max-width: 82px
+    height: 100%
+  &__scroll-down
+    position: absolute
+    display: inline-block
+    padding: 40px 48px
+    left: 0
+    bottom: 0
+    // min-width: 247px
+    // min-height: 97px
+    color: $light
+    background-color: $dark
+    text-transform: uppercase
+    text-decoration: none
+.hero-content
+  position: absolute
+  padding-top: 194px
+  left: 73px
+  margin-left: 60px
+  &__title
+    font-family: 'Yeseva One', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 53px
+    text-transform: uppercase
+    &-primary
+      font-family: 'Yeseva One', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 40px
+      line-height: 53px
+      text-transform: uppercase
+      color: $primary
+
+.instagram  
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $dark
+  &__link
+    text-transform: uppercase
+    color: $primary
+    text-decoration: none
+    transform: rotate(90deg)    
+.title
+  margin: 0
